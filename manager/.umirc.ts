@@ -19,8 +19,9 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  tailwindcss: {},
   layout: {
-    title: '@umijs/max',
+    title: '管理后台',
   },
   routes,
   npmClient: 'pnpm',

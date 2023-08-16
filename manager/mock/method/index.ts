@@ -54,8 +54,8 @@ export function getList(data: any) {
       )
       .map((item) => ({
         ...item,
-        createdAt: format(new Date, 'YYYY-MM-DD'),
-        updatedAt: format(new Date, 'YYYY-MM-DD'),
+        createdAt: format(new Date, 'yyyy-MM-dd'),
+        updatedAt: format(new Date, 'yyyy-MM-dd'),
       }));
     const sorter = JSON.parse(params.sorter || ('{}' as any));
     if (sorter) {

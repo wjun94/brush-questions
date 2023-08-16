@@ -1,16 +1,25 @@
-import Guide from '@/components/Guide';
-import { trim } from '@/utils/format';
+import { getCategoryList } from '@/services/home/index';
 import { PageContainer } from '@ant-design/pro-components';
-import { useModel } from '@umijs/max';
-import styles from './index.less';
+import { useRequest } from 'ahooks';
+import { Button, Card, Col, Row } from 'antd';
 
 const HomePage: React.FC = () => {
-  const { name } = useModel('global');
+  const { data } = useRequest(getCategoryList);
+  const list = data?.data || [];
   return (
     <PageContainer ghost>
-      <div className={styles.container}>
-        <Guide name={trim(name)} />
-      </div>
+      <Button className="mb-[20px]" type="primary">
+        创建标签
+      </Button>
+      <Row gutter={16}>
+        {list.map((item) => (
+          <Col className="mb-[20px]" key={item.id} span={8}>
+            <Card title={item.title} bordered={false}>
+              {item.desc}
+            </Card>
+          </Col>
+        ))}
+      </Row>
     </PageContainer>
   );
 };

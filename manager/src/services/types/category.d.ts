@@ -7,4 +7,10 @@ declare namespace CATEGORY {
     /** 描述 */
     desc?: string
   };
+  type Create = {
+    /** 标题 */
+    title: string;
+    /** 描述 */
+    desc?: string
+  }
 }

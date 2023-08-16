@@ -7,7 +7,7 @@ specifiers:
   '@types/react-dom': ^18.0.11
   '@umijs/max': ^4.0.73
   ahooks: ^3.7.8
-  antd: ^5.4.0
+  antd: ^5.8.3
   clsx: ^2.0.0
   date-fns: ^2.30.0
   husky: ^8.0.3
@@ -21,10 +21,10 @@ specifiers:
 
 dependencies:
   '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-  '@ant-design/pro-components': registry.npmjs.org/@ant-design/pro-components/2.6.8_antd@5.7.3
+  '@ant-design/pro-components': registry.npmjs.org/@ant-design/pro-components/2.6.8_antd@5.8.3
   '@umijs/max': registry.npmjs.org/@umijs/max/4.0.73_my37s4it4tsqp7qqyudanjcpqq
   ahooks: registry.npmjs.org/ahooks/3.7.8
-  antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+  antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
   clsx: registry.npmjs.org/clsx/2.0.0
   date-fns: registry.npmjs.org/date-fns/2.30.0
   query-string: registry.npmjs.org/query-string/8.1.0
@@ -122,6 +122,12 @@ packages:
     version: 4.2.1
     dev: false
 
+  registry.npmjs.org/@ant-design/icons-svg/4.3.0:
+    resolution: {integrity: sha512-WOgvdH/1Wl8Z7VXigRbCa5djO14zxrNTzvrAQzhWiBQtEKT0uTc8K1ltjKZ8U1gPn/wXhMA8/jE39SJl0WNxSg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.3.0.tgz}
+    name: '@ant-design/icons-svg'
+    version: 4.3.0
+    dev: false
+
   registry.npmjs.org/@ant-design/icons/4.8.0:
     resolution: {integrity: sha512-T89P2jG2vM7OJ0IfGx2+9FC5sQjtTzRSz+mCHTXkFn/ELZc2YpfStmYHmqzq2Jx55J0F7+O6i5/ZKFSVNWCKNg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/icons/-/icons-4.8.0.tgz}
     name: '@ant-design/icons'
@@ -132,7 +138,7 @@ packages:
       react-dom: '>=16.0.0'
     dependencies:
       '@ant-design/colors': registry.npmjs.org/@ant-design/colors/6.0.0
-      '@ant-design/icons-svg': registry.npmjs.org/@ant-design/icons-svg/4.2.1
+      '@ant-design/icons-svg': registry.npmjs.org/@ant-design/icons-svg/4.3.0
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       classnames: registry.npmjs.org/classnames/2.3.2
       rc-util: registry.npmjs.org/rc-util/5.35.0
@@ -151,6 +157,23 @@ packages:
       '@ant-design/icons-svg': registry.npmjs.org/@ant-design/icons-svg/4.2.1
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       classnames: registry.npmjs.org/classnames/2.3.2
+      rc-util: registry.npmjs.org/rc-util/5.35.0
+    dev: false
+
+  registry.npmjs.org/@ant-design/icons/5.2.5:
+    resolution: {integrity: sha512-9Jc59v5fl5dzmxqLWtRev3dJwU7Ya9ZheoI6XmZjZiQ7PRtk77rC+Rbt7GJzAPPg43RQ4YO53RE1u8n+Et97vQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/icons/-/icons-5.2.5.tgz}
+    name: '@ant-design/icons'
+    version: 5.2.5
+    engines: {node: '>=8'}
+    peerDependencies:
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
+    dependencies:
+      '@ant-design/colors': registry.npmjs.org/@ant-design/colors/7.0.0
+      '@ant-design/icons-svg': registry.npmjs.org/@ant-design/icons-svg/4.3.0
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
+      classnames: registry.npmjs.org/classnames/2.3.2
+      lodash.camelcase: registry.npmjs.org/lodash.camelcase/4.3.0
       rc-util: registry.npmjs.org/rc-util/5.35.0
     dev: false
 
@@ -182,7 +205,7 @@ packages:
       - react-dom
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.8.3:
     resolution: {integrity: sha512-oW2ed3DEF+Hf2i5aKHNc0DzZdLtRFZ+R7bqeaOvofRqbQbC3rg5SMiaU6kXuqWWqNMysQouH9anDLQqmARTuFA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-card/-/pro-card-2.5.7.tgz}
     id: registry.npmjs.org/@ant-design/pro-card/2.5.7
     name: '@ant-design/pro-card'
@@ -192,10 +215,10 @@ packages:
       react: '>=17.0.0'
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       classnames: registry.npmjs.org/classnames/2.3.2
       omit.js: registry.npmjs.org/omit.js/2.0.2
       rc-resize-observer: registry.npmjs.org/rc-resize-observer/1.3.1
@@ -231,7 +254,7 @@ packages:
       - rc-field-form
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-components/2.6.8_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-components/2.6.8_antd@5.8.3:
     resolution: {integrity: sha512-mTJEI7wBGgSBJalawlYW5PNzuOGo34UkmYzOHQ6+7X/md+eio23C+YHnEQkyrT3K3y1gpEbM1vvXb8VCZKPblQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-components/-/pro-components-2.6.8.tgz}
     id: registry.npmjs.org/@ant-design/pro-components/2.6.8
     name: '@ant-design/pro-components'
@@ -241,18 +264,18 @@ packages:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
-      '@ant-design/pro-card': registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.7.3
-      '@ant-design/pro-descriptions': registry.npmjs.org/@ant-design/pro-descriptions/2.4.8_antd@5.7.3
-      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.7.3
-      '@ant-design/pro-form': registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.7.3
-      '@ant-design/pro-layout': registry.npmjs.org/@ant-design/pro-layout/7.16.4_antd@5.7.3
-      '@ant-design/pro-list': registry.npmjs.org/@ant-design/pro-list/2.5.8_antd@5.7.3
-      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3
-      '@ant-design/pro-skeleton': registry.npmjs.org/@ant-design/pro-skeleton/2.1.6_antd@5.7.3
-      '@ant-design/pro-table': registry.npmjs.org/@ant-design/pro-table/3.10.2_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-card': registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.8.3
+      '@ant-design/pro-descriptions': registry.npmjs.org/@ant-design/pro-descriptions/2.4.8_antd@5.8.3
+      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.8.3
+      '@ant-design/pro-form': registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.8.3
+      '@ant-design/pro-layout': registry.npmjs.org/@ant-design/pro-layout/7.16.4_antd@5.8.3
+      '@ant-design/pro-list': registry.npmjs.org/@ant-design/pro-list/2.5.8_antd@5.8.3
+      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3
+      '@ant-design/pro-skeleton': registry.npmjs.org/@ant-design/pro-skeleton/2.1.6_antd@5.8.3
+      '@ant-design/pro-table': registry.npmjs.org/@ant-design/pro-table/3.10.2_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
     transitivePeerDependencies:
       - '@types/lodash.merge'
       - rc-field-form
@@ -282,7 +305,7 @@ packages:
       - react-dom
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-descriptions/2.4.8_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-descriptions/2.4.8_antd@5.8.3:
     resolution: {integrity: sha512-68dHRC2JD8V+9wulGztw7wzxHjO2YPuFxbnVKQO4j6RqQ4lYgHDcbrLo3FbAJF9ytKZeJlLHc2ahdcs+ssu7qQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-descriptions/-/pro-descriptions-2.4.8.tgz}
     id: registry.npmjs.org/@ant-design/pro-descriptions/2.4.8
     name: '@ant-design/pro-descriptions'
@@ -291,12 +314,12 @@ packages:
       antd: '>=4.23.0 || >=5.0.0'
       react: '>=17.0.0'
     dependencies:
-      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.7.3
-      '@ant-design/pro-form': registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.7.3
-      '@ant-design/pro-skeleton': registry.npmjs.org/@ant-design/pro-skeleton/2.1.6_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.8.3
+      '@ant-design/pro-form': registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.8.3
+      '@ant-design/pro-skeleton': registry.npmjs.org/@ant-design/pro-skeleton/2.1.6_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       rc-resize-observer: registry.npmjs.org/rc-resize-observer/0.2.6
       rc-util: registry.npmjs.org/rc-util/5.35.0
       use-json-comparison: registry.npmjs.org/use-json-comparison/1.0.6
@@ -331,7 +354,7 @@ packages:
       - react-dom
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.8.3:
     resolution: {integrity: sha512-evDIyj1PTKIGHRUCobRunnFJDf73tSj/W+/mfd3XB+EzKvGK/xtwwXXHD93YDpMc/5Vc3o8TYkKwvPxKxhsoHQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-field/-/pro-field-2.10.7.tgz}
     id: registry.npmjs.org/@ant-design/pro-field/2.10.7
     name: '@ant-design/pro-field'
@@ -341,11 +364,11 @@ packages:
       react: '>=17.0.0'
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       '@chenshuai2144/sketch-color': registry.npmjs.org/@chenshuai2144/sketch-color/1.0.9
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       classnames: registry.npmjs.org/classnames/2.3.2
       dayjs: registry.npmjs.org/dayjs/1.11.9
       lodash.tonumber: registry.npmjs.org/lodash.tonumber/4.0.3
@@ -388,7 +411,7 @@ packages:
       use-media-antd-query: registry.npmjs.org/use-media-antd-query/1.1.0
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.8.3:
     resolution: {integrity: sha512-n0vobrvqTjjibZ4EeSvuPh+LZWBcNK2BXkeokzSCnHckqgxXVvfw//jvOV7GnP5qAFmhAH2QH2IJPVr/a0jOXQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-form/-/pro-form-2.16.2.tgz}
     id: registry.npmjs.org/@ant-design/pro-form/2.16.2
     name: '@ant-design/pro-form'
@@ -404,13 +427,13 @@ packages:
         optional: true
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.7.3
-      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.8.3
+      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       '@chenshuai2144/sketch-color': registry.npmjs.org/@chenshuai2144/sketch-color/1.0.9
       '@umijs/use-params': registry.npmjs.org/@umijs/use-params/1.0.9
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       classnames: registry.npmjs.org/classnames/2.3.2
       lodash.merge: registry.npmjs.org/lodash.merge/4.6.2
       omit.js: registry.npmjs.org/omit.js/2.0.2
@@ -449,7 +472,7 @@ packages:
       warning: registry.npmjs.org/warning/4.0.3
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-layout/7.16.4_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-layout/7.16.4_antd@5.8.3:
     resolution: {integrity: sha512-A3iWPLUBl28Phe/Itu8dNoxT+Ci3+Zh04x5q7zeiEJdlFIRmIqotFBvANqFf1ndQovt+SqwkSFfi/GqH7EnN3w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-layout/-/pro-layout-7.16.4.tgz}
     id: registry.npmjs.org/@ant-design/pro-layout/7.16.4
     name: '@ant-design/pro-layout'
@@ -460,12 +483,12 @@ packages:
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       '@umijs/route-utils': registry.npmjs.org/@umijs/route-utils/4.0.1
       '@umijs/use-params': registry.npmjs.org/@umijs/use-params/1.0.9
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       classnames: registry.npmjs.org/classnames/2.3.2
       lodash.merge: registry.npmjs.org/lodash.merge/4.6.2
       omit.js: registry.npmjs.org/omit.js/2.0.2
@@ -505,7 +528,7 @@ packages:
       - rc-field-form
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-list/2.5.8_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-list/2.5.8_antd@5.8.3:
     resolution: {integrity: sha512-QOuZgSUShJXy6PJv9naVpznWzvDSgggU/7/PEKxsP7M/el0rphYzBpoO4VbjI/UPbjwiBXQ2LFPovoYeX4vvpg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-list/-/pro-list-2.5.8.tgz}
     id: registry.npmjs.org/@ant-design/pro-list/2.5.8
     name: '@ant-design/pro-list'
@@ -516,12 +539,12 @@ packages:
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-      '@ant-design/pro-card': registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.7.3
-      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.7.3
-      '@ant-design/pro-table': registry.npmjs.org/@ant-design/pro-table/3.10.2_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-card': registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.8.3
+      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.8.3
+      '@ant-design/pro-table': registry.npmjs.org/@ant-design/pro-table/3.10.2_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       classnames: registry.npmjs.org/classnames/2.3.2
       dayjs: registry.npmjs.org/dayjs/1.11.9
       rc-resize-observer: registry.npmjs.org/rc-resize-observer/1.3.1
@@ -550,7 +573,7 @@ packages:
       swr: registry.npmjs.org/swr/2.2.0
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3:
     resolution: {integrity: sha512-A7zXZ+58IGVuIAGvo8Hia9Wz0TFfFMo+tIv16Pu2RF9sMdGg4pE5M87qT7+45TkKodWpnpBd4cIte3jfY5v/LQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-provider/-/pro-provider-2.11.1.tgz}
     id: registry.npmjs.org/@ant-design/pro-provider/2.11.1
     name: '@ant-design/pro-provider'
@@ -563,7 +586,7 @@ packages:
       '@ant-design/cssinjs': registry.npmjs.org/@ant-design/cssinjs/1.16.0
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       '@ctrl/tinycolor': registry.npmjs.org/@ctrl/tinycolor/3.6.0
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       rc-util: registry.npmjs.org/rc-util/5.35.0
       swr: registry.npmjs.org/swr/2.2.0
     dev: false
@@ -583,7 +606,7 @@ packages:
       use-media-antd-query: registry.npmjs.org/use-media-antd-query/1.1.0
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-skeleton/2.1.6_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-skeleton/2.1.6_antd@5.8.3:
     resolution: {integrity: sha512-IQD1rjMvHA2Ca8Ez/w8JWAEpGJSjCUwlm0Xm0KU02xOKw3YNGE8HC8TdZ9TbA3VJIzvi6g/J/UQWImWRgkRFbA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-skeleton/-/pro-skeleton-2.1.6.tgz}
     id: registry.npmjs.org/@ant-design/pro-skeleton/2.1.6
     name: '@ant-design/pro-skeleton'
@@ -594,7 +617,7 @@ packages:
       react-dom: '>=17.0.0'
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       use-media-antd-query: registry.npmjs.org/use-media-antd-query/1.1.0
     dev: false
 
@@ -630,7 +653,7 @@ packages:
       - '@types/lodash.merge'
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-table/3.10.2_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-table/3.10.2_antd@5.8.3:
     resolution: {integrity: sha512-E9fYD4irmF/AxR9P8cURW1xj1z0OTiZWglhXNiCbEHAYVtZEXguco3m5/ltj6qY/vmBa7q9+tsemp9Mw4cOvxw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-table/-/pro-table-3.10.2.tgz}
     id: registry.npmjs.org/@ant-design/pro-table/3.10.2
     name: '@ant-design/pro-table'
@@ -642,16 +665,16 @@ packages:
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-      '@ant-design/pro-card': registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.7.3
-      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.7.3
-      '@ant-design/pro-form': registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.7.3
-      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3
-      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3
+      '@ant-design/pro-card': registry.npmjs.org/@ant-design/pro-card/2.5.7_antd@5.8.3
+      '@ant-design/pro-field': registry.npmjs.org/@ant-design/pro-field/2.10.7_antd@5.8.3
+      '@ant-design/pro-form': registry.npmjs.org/@ant-design/pro-form/2.16.2_antd@5.8.3
+      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3
+      '@ant-design/pro-utils': registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       '@dnd-kit/core': registry.npmjs.org/@dnd-kit/core/6.0.8
       '@dnd-kit/sortable': registry.npmjs.org/@dnd-kit/sortable/7.0.2_@dnd-kit+core@6.0.8
       '@dnd-kit/utilities': registry.npmjs.org/@dnd-kit/utilities/3.2.1
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       classnames: registry.npmjs.org/classnames/2.3.2
       dayjs: registry.npmjs.org/dayjs/1.11.9
       omit.js: registry.npmjs.org/omit.js/2.0.2
@@ -682,7 +705,7 @@ packages:
       swr: registry.npmjs.org/swr/2.2.0
     dev: false
 
-  registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.7.3:
+  registry.npmjs.org/@ant-design/pro-utils/2.12.6_antd@5.8.3:
     resolution: {integrity: sha512-zBCD+uH0dZFM+ThRNDKHfLNCFfBa1vL/2KlPGGAOEIphx/Lt2PREELAHE6GnurlDEmNuBQFtAAV8Pgs9ccMeRg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@ant-design/pro-utils/-/pro-utils-2.12.6.tgz}
     id: registry.npmjs.org/@ant-design/pro-utils/2.12.6
     name: '@ant-design/pro-utils'
@@ -693,9 +716,9 @@ packages:
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
-      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.7.3
+      '@ant-design/pro-provider': registry.npmjs.org/@ant-design/pro-provider/2.11.1_antd@5.8.3
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
-      antd: registry.npmjs.org/antd/5.7.3_date-fns@2.30.0
+      antd: registry.npmjs.org/antd/5.8.3_date-fns@2.30.0
       classnames: registry.npmjs.org/classnames/2.3.2
       dayjs: registry.npmjs.org/dayjs/1.11.9
       rc-util: registry.npmjs.org/rc-util/5.35.0
@@ -5303,18 +5326,18 @@ packages:
       scroll-into-view-if-needed: registry.npmjs.org/scroll-into-view-if-needed/2.2.31
     dev: false
 
-  registry.npmjs.org/antd/5.7.3_date-fns@2.30.0:
-    resolution: {integrity: sha512-7sQeE86XkUrYDIKGu/Qu7kl+NWYzkVSGbGqWGIbITHkFZorCyOvvqgF63fiWo/tp2lZWbEOO0Cm7IiYnoeWh9A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/antd/-/antd-5.7.3.tgz}
-    id: registry.npmjs.org/antd/5.7.3
+  registry.npmjs.org/antd/5.8.3_date-fns@2.30.0:
+    resolution: {integrity: sha512-/DIGg/1UXyPdNLs9FYalfJO1LnnwMv2pnx9DS6ANSJwlo6fDxtb693IJWdaBuRlxgXJfARzxMNsPyFygy9N/Qw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/antd/-/antd-5.8.3.tgz}
+    id: registry.npmjs.org/antd/5.8.3
     name: antd
-    version: 5.7.3
+    version: 5.8.3
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
     dependencies:
       '@ant-design/colors': registry.npmjs.org/@ant-design/colors/7.0.0
       '@ant-design/cssinjs': registry.npmjs.org/@ant-design/cssinjs/1.16.0
-      '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.1.4
+      '@ant-design/icons': registry.npmjs.org/@ant-design/icons/5.2.5
       '@ant-design/react-slick': registry.npmjs.org/@ant-design/react-slick/1.0.2
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       '@ctrl/tinycolor': registry.npmjs.org/@ctrl/tinycolor/3.6.0
@@ -5326,14 +5349,14 @@ packages:
       copy-to-clipboard: registry.npmjs.org/copy-to-clipboard/3.3.3
       dayjs: registry.npmjs.org/dayjs/1.11.9
       qrcode.react: registry.npmjs.org/qrcode.react/3.1.0
-      rc-cascader: registry.npmjs.org/rc-cascader/3.12.1
+      rc-cascader: registry.npmjs.org/rc-cascader/3.14.1
       rc-checkbox: registry.npmjs.org/rc-checkbox/3.1.0
       rc-collapse: registry.npmjs.org/rc-collapse/3.7.0
       rc-dialog: registry.npmjs.org/rc-dialog/9.1.0
       rc-drawer: registry.npmjs.org/rc-drawer/6.2.0
       rc-dropdown: registry.npmjs.org/rc-dropdown/4.1.0
-      rc-field-form: registry.npmjs.org/rc-field-form/1.34.2
-      rc-image: registry.npmjs.org/rc-image/7.0.0
+      rc-field-form: registry.npmjs.org/rc-field-form/1.36.2
+      rc-image: registry.npmjs.org/rc-image/7.1.3
       rc-input: registry.npmjs.org/rc-input/1.1.0
       rc-input-number: registry.npmjs.org/rc-input-number/8.0.3
       rc-mentions: registry.npmjs.org/rc-mentions/2.5.0
@@ -5341,12 +5364,12 @@ packages:
       rc-motion: registry.npmjs.org/rc-motion/2.7.3
       rc-notification: registry.npmjs.org/rc-notification/5.0.5
       rc-pagination: registry.npmjs.org/rc-pagination/3.5.0
-      rc-picker: registry.npmjs.org/rc-picker/3.10.0_q4c2rsj7pljrnhnn6sajd7szqm
+      rc-picker: registry.npmjs.org/rc-picker/3.13.0_q4c2rsj7pljrnhnn6sajd7szqm
       rc-progress: registry.npmjs.org/rc-progress/3.4.2
       rc-rate: registry.npmjs.org/rc-rate/2.12.0
       rc-resize-observer: registry.npmjs.org/rc-resize-observer/1.3.1
       rc-segmented: registry.npmjs.org/rc-segmented/2.2.2
-      rc-select: registry.npmjs.org/rc-select/14.5.2
+      rc-select: registry.npmjs.org/rc-select/14.7.4
       rc-slider: registry.npmjs.org/rc-slider/10.1.1
       rc-steps: registry.npmjs.org/rc-steps/6.0.1
       rc-switch: registry.npmjs.org/rc-switch/4.1.0
@@ -5355,7 +5378,7 @@ packages:
       rc-textarea: registry.npmjs.org/rc-textarea/1.3.3
       rc-tooltip: registry.npmjs.org/rc-tooltip/6.0.1
       rc-tree: registry.npmjs.org/rc-tree/5.7.9
-      rc-tree-select: registry.npmjs.org/rc-tree-select/5.9.0
+      rc-tree-select: registry.npmjs.org/rc-tree-select/5.11.1
       rc-upload: registry.npmjs.org/rc-upload/4.3.4
       rc-util: registry.npmjs.org/rc-util/5.35.0
       scroll-into-view-if-needed: registry.npmjs.org/scroll-into-view-if-needed/3.0.10
@@ -9382,6 +9405,12 @@ packages:
       p-locate: registry.npmjs.org/p-locate/5.0.0
     dev: false
 
+  registry.npmjs.org/lodash.camelcase/4.3.0:
+    resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz}
+    name: lodash.camelcase
+    version: 4.3.0
+    dev: false
+
   registry.npmjs.org/lodash.debounce/4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz}
     name: lodash.debounce
@@ -11523,10 +11552,10 @@ packages:
       resize-observer-polyfill: registry.npmjs.org/resize-observer-polyfill/1.5.1
     dev: false
 
-  registry.npmjs.org/rc-cascader/3.12.1:
-    resolution: {integrity: sha512-g6In2y6eudHXS/Fs9dKFhp9acvHRUPqem/7xReR9ng8M1pNAE137uGBOt9WNpgsKT/cDGudXZQVehaBwAKg6hQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-cascader/-/rc-cascader-3.12.1.tgz}
+  registry.npmjs.org/rc-cascader/3.14.1:
+    resolution: {integrity: sha512-fCsgjLIQqYZMhFj9UT+x2ZW4uobx7OP5yivcn6Xto5fuxHaldphsryzCeUVmreQOHEo0RP+032Ip9RDzrKVKJA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-cascader/-/rc-cascader-3.14.1.tgz}
     name: rc-cascader
-    version: 3.12.1
+    version: 3.14.1
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -11534,7 +11563,7 @@ packages:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       array-tree-filter: registry.npmjs.org/array-tree-filter/2.1.0
       classnames: registry.npmjs.org/classnames/2.3.2
-      rc-select: registry.npmjs.org/rc-select/14.5.2
+      rc-select: registry.npmjs.org/rc-select/14.7.4
       rc-tree: registry.npmjs.org/rc-tree/5.7.9
       rc-util: registry.npmjs.org/rc-util/5.35.0
     dev: false
@@ -11712,6 +11741,20 @@ packages:
       rc-util: registry.npmjs.org/rc-util/5.35.0
     dev: false
 
+  registry.npmjs.org/rc-field-form/1.36.2:
+    resolution: {integrity: sha512-tCF/JjUsnxW80Gk4E4ZH74ONsaQMxVTRtui6XhQB8DJc4FHWLLa5pP8zwhxtPKC5NaO0QZ0Cv79JggDubn6n2g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-field-form/-/rc-field-form-1.36.2.tgz}
+    name: rc-field-form
+    version: 1.36.2
+    engines: {node: '>=8.x'}
+    peerDependencies:
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+    dependencies:
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
+      async-validator: registry.npmjs.org/async-validator/4.2.5
+      rc-util: registry.npmjs.org/rc-util/5.35.0
+    dev: false
+
   registry.npmjs.org/rc-image/5.13.0:
     resolution: {integrity: sha512-iZTOmw5eWo2+gcrJMMcnd7SsxVHl3w5xlyCgsULUdJhJbnuI8i/AL0tVOsE7aLn9VfOh1qgDT3mC2G75/c7mqg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-image/-/rc-image-5.13.0.tgz}
     name: rc-image
@@ -11728,10 +11771,10 @@ packages:
       rc-util: registry.npmjs.org/rc-util/5.35.0
     dev: false
 
-  registry.npmjs.org/rc-image/7.0.0:
-    resolution: {integrity: sha512-pOr/LYthg5a+R2LDlFPv8u2ndX4aJQNghWCiWxflmLglC3p0uts/NIWLAituQOKvV1wO1aFI1CZtLMT7jrU3vA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-image/-/rc-image-7.0.0.tgz}
+  registry.npmjs.org/rc-image/7.1.3:
+    resolution: {integrity: sha512-foMl1rcit1F0+vgxE5kf0c8TygQcHhILsOohQUL+JMUbzOo3OBFRcehJudYbqbCTArzCecS8nA1irUU9vvgQbg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-image/-/rc-image-7.1.3.tgz}
     name: rc-image
-    version: 7.0.0
+    version: 7.1.3
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -11964,11 +12007,11 @@ packages:
       shallowequal: registry.npmjs.org/shallowequal/1.1.0
     dev: false
 
-  registry.npmjs.org/rc-picker/3.10.0_q4c2rsj7pljrnhnn6sajd7szqm:
-    resolution: {integrity: sha512-Euki50qtEct6ByOeYlnA4TLs/LcXz7BAYS4cmCTKJ3dWg2sNTVtredLdbS9aJ/9fhMacxGAYAlcQJpQx+av43A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-picker/-/rc-picker-3.10.0.tgz}
-    id: registry.npmjs.org/rc-picker/3.10.0
+  registry.npmjs.org/rc-picker/3.13.0_q4c2rsj7pljrnhnn6sajd7szqm:
+    resolution: {integrity: sha512-hJ+1lGkemnvsW+t+PjH9OAehHlj7wdD0G75T1HZj0IeZTqBE/5mmuf8E8MHYATNBqW409lAfk8GwjYm1WVMopg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-picker/-/rc-picker-3.13.0.tgz}
+    id: registry.npmjs.org/rc-picker/3.13.0
     name: rc-picker
-    version: 3.10.0
+    version: 3.13.0
     engines: {node: '>=8.x'}
     peerDependencies:
       date-fns: '>= 2.x'
@@ -12110,10 +12153,10 @@ packages:
       rc-virtual-list: registry.npmjs.org/rc-virtual-list/3.5.3
     dev: false
 
-  registry.npmjs.org/rc-select/14.5.2:
-    resolution: {integrity: sha512-Np/lDHvxCnVhVsheQjSV1I/OMJTWJf1n10wq8q1AGy3ytyYLfjNpi6uaz/pmjsbbiSddSWzJnNZCli9LmgBZsA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-select/-/rc-select-14.5.2.tgz}
+  registry.npmjs.org/rc-select/14.7.4:
+    resolution: {integrity: sha512-qRUpvMVXFy6rdHe+qzHXAqyQAfhErC/oY8dcRtoRjoz0lz2Nx3J+lLL5AnEbjnwlS+/kQTJUZ/65WyCwWwcLwQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-select/-/rc-select-14.7.4.tgz}
     name: rc-select
-    version: 14.5.2
+    version: 14.7.4
     engines: {node: '>=8.x'}
     peerDependencies:
       react: '*'
@@ -12335,6 +12378,21 @@ packages:
       classnames: registry.npmjs.org/classnames/2.3.2
     dev: false
 
+  registry.npmjs.org/rc-tree-select/5.11.1:
+    resolution: {integrity: sha512-EDG1rYFu1iD2Y8fg0yEmm0LV3XqWOy+SpgOMvO5396NgAZ67t0zVTNK6FQkIxzdXf5ri742BkB/B8+Ah6+0Kxw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-tree-select/-/rc-tree-select-5.11.1.tgz}
+    name: rc-tree-select
+    version: 5.11.1
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
+      classnames: registry.npmjs.org/classnames/2.3.2
+      rc-select: registry.npmjs.org/rc-select/14.7.4
+      rc-tree: registry.npmjs.org/rc-tree/5.7.9
+      rc-util: registry.npmjs.org/rc-util/5.35.0
+    dev: false
+
   registry.npmjs.org/rc-tree-select/5.5.5:
     resolution: {integrity: sha512-k2av7jF6tW9bIO4mQhaVdV4kJ1c54oxV3/hHVU+oD251Gb5JN+m1RbJFTMf1o0rAFqkvto33rxMdpafaGKQRJw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-tree-select/-/rc-tree-select-5.5.5.tgz}
     name: rc-tree-select
@@ -12346,21 +12404,6 @@ packages:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
       classnames: registry.npmjs.org/classnames/2.3.2
       rc-select: registry.npmjs.org/rc-select/14.1.18
-      rc-tree: registry.npmjs.org/rc-tree/5.7.9
-      rc-util: registry.npmjs.org/rc-util/5.35.0
-    dev: false
-
-  registry.npmjs.org/rc-tree-select/5.9.0:
-    resolution: {integrity: sha512-oh3blESzLfLCBPSiVDtZ2irzrWWZUMeHvnSwRvFo79br8Z+K/1OhXhXBZmROvfKwaH8YUugAQy8B2j5EGQbdyA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rc-tree-select/-/rc-tree-select-5.9.0.tgz}
-    name: rc-tree-select
-    version: 5.9.0
-    peerDependencies:
-      react: '*'
-      react-dom: '*'
-    dependencies:
-      '@babel/runtime': registry.npmjs.org/@babel/runtime/7.22.6
-      classnames: registry.npmjs.org/classnames/2.3.2
-      rc-select: registry.npmjs.org/rc-select/14.5.2
       rc-tree: registry.npmjs.org/rc-tree/5.7.9
       rc-util: registry.npmjs.org/rc-util/5.35.0
     dev: false

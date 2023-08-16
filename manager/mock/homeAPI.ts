@@ -1,5 +1,5 @@
 // mock tableListDataSource
-import { getList } from './method';
+import { getList, success } from './method';
 
 const genList = (current: number, pageSize: number) => {
   const tableListDataSource: CATEGORY.Item[] = [];
@@ -17,4 +17,6 @@ const genList = (current: number, pageSize: number) => {
 
 export default {
   'GET /api/v1/category/list': getList(genList(1, 100)),
+  'POST /api/v1/category': success,
+  'PUT /api/v1/category': success,
 }

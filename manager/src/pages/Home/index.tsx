@@ -1,5 +1,9 @@
 import { HideInput } from '@/components';
-import { createCategory, updateCategory } from '@/services/home';
+import {
+  createCategory,
+  deleteCategory,
+  updateCategory,
+} from '@/services/home';
 import { getCategoryList } from '@/services/home/index';
 import {
   DeleteOutlined,
@@ -7,6 +11,7 @@ import {
   EllipsisOutlined,
 } from '@ant-design/icons';
 import { PageContainer } from '@ant-design/pro-components';
+import { history } from '@umijs/max';
 import { useRequest } from 'ahooks';
 import {
   Button,
@@ -55,7 +60,7 @@ const HomePage: React.FC = () => {
                 <Popconfirm
                   key="delete"
                   title="确定要删除该标签？"
-                  onConfirm={() => console.log(111)}
+                  onConfirm={() => deleteCategory({ id: item.id })}
                 >
                   <DeleteOutlined />
                 </Popconfirm>,
@@ -68,7 +73,10 @@ const HomePage: React.FC = () => {
                   />
                 </Tooltip>,
                 <Tooltip key="ellipsis" title="详情" placement="top">
-                  <EllipsisOutlined key="ellipsis" />
+                  <EllipsisOutlined
+                    onClick={() => history.push('/detail')}
+                    key="ellipsis"
+                  />
                 </Tooltip>,
               ]}
             >

@@ -15,6 +15,12 @@ export default [
     component: './Home',
   },
   {
+    name: '详情',
+    hideInMenu: true,
+    path: '/detail',
+    component: './Home/Detail',
+  },
+  {
     name: '权限演示',
     path: '/access',
     component: './Access',

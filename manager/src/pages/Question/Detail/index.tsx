@@ -1,5 +1,10 @@
 import { HideInput, ProTable } from '@/components';
-import { createTag, deleteTag, getTagList, updateTag } from '@/services/home';
+import {
+  createTag,
+  deleteTag,
+  getTagList,
+  updateTag,
+} from '@/services/question';
 import { PlusOutlined } from '@ant-design/icons';
 import type { ActionType, ProColumns } from '@ant-design/pro-components';
 import { PageContainer } from '@ant-design/pro-components';

@@ -15,19 +15,21 @@ export default [
     component: './Home',
   },
   {
-    name: '详情',
-    hideInMenu: true,
-    path: '/detail',
-    component: './Home/Detail',
-  },
-  {
-    name: '权限演示',
-    path: '/access',
-    component: './Access',
-  },
-  {
-    name: ' CRUD 示例',
-    path: '/table',
-    component: './Table',
+    path: '/question',
+    name: '分类',
+    routes: [
+      { path: '/question', redirect: '/question/list' },
+      {
+        path: '/question/list',
+        name: '分类列表',
+        component: './Question/List',
+      },
+      {
+        path: '/question/detail',
+        hideInMenu: true,
+        name: '分类详情',
+        component: './Question/Detail',
+      },
+    ],
   },
 ]
